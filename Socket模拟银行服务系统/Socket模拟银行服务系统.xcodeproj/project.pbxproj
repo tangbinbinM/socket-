@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257101F81E5D24A900C1623E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257101F71E5D24A900C1623E /* main.m */; };
+		257102011E5D24C800C1623E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 257102001E5D24C800C1623E /* GCDAsyncSocket.m */; };
+		257102041E5D24D100C1623E /* TBBSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 257102031E5D24D100C1623E /* TBBSocketServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		257101F21E5D24A900C1623E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		257101F41E5D24A900C1623E /* Socket模拟银行服务系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Socket模拟银行服务系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		257101F71E5D24A900C1623E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		257101FF1E5D24C800C1623E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		257102001E5D24C800C1623E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		257102021E5D24D100C1623E /* TBBSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBSocketServer.h; sourceTree = "<group>"; };
+		257102031E5D24D100C1623E /* TBBSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBSocketServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257101F11E5D24A900C1623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257101EB1E5D24A900C1623E = {
+			isa = PBXGroup;
+			children = (
+				257101F61E5D24A900C1623E /* Socket模拟银行服务系统 */,
+				257101F51E5D24A900C1623E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257101F51E5D24A900C1623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257101F41E5D24A900C1623E /* Socket模拟银行服务系统 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257101F61E5D24A900C1623E /* Socket模拟银行服务系统 */ = {
+			isa = PBXGroup;
+			children = (
+				257101FE1E5D24B100C1623E /* socketTcp */,
+				257101F71E5D24A900C1623E /* main.m */,
+				257102021E5D24D100C1623E /* TBBSocketServer.h */,
+				257102031E5D24D100C1623E /* TBBSocketServer.m */,
+			);
+			path = "Socket模拟银行服务系统";
+			sourceTree = "<group>";
+		};
+		257101FE1E5D24B100C1623E /* socketTcp */ = {
+			isa = PBXGroup;
+			children = (
+				257101FF1E5D24C800C1623E /* GCDAsyncSocket.h */,
+				257102001E5D24C800C1623E /* GCDAsyncSocket.m */,
+			);
+			name = socketTcp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257101F31E5D24A900C1623E /* Socket模拟银行服务系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257101FB1E5D24A900C1623E /* Build configuration list for PBXNativeTarget "Socket模拟银行服务系统" */;
+			buildPhases = (
+				257101F01E5D24A900C1623E /* Sources */,
+				257101F11E5D24A900C1623E /* Frameworks */,
+				257101F21E5D24A900C1623E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket模拟银行服务系统";
+			productName = "Socket模拟银行服务系统";
+			productReference = 257101F41E5D24A900C1623E /* Socket模拟银行服务系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257101EC1E5D24A900C1623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tbb;
+				TargetAttributes = {
+					257101F31E5D24A900C1623E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 257101EF1E5D24A900C1623E /* Build configuration list for PBXProject "Socket模拟银行服务系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 257101EB1E5D24A900C1623E;
+			productRefGroup = 257101F51E5D24A900C1623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257101F31E5D24A900C1623E /* Socket模拟银行服务系统 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257101F01E5D24A900C1623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257102011E5D24C800C1623E /* GCDAsyncSocket.m in Sources */,
+				257101F81E5D24A900C1623E /* main.m in Sources */,
+				257102041E5D24D100C1623E /* TBBSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		257101F91E5D24A900C1623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		257101FA1E5D24A900C1623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		257101FC1E5D24A900C1623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		257101FD1E5D24A900C1623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257101EF1E5D24A900C1623E /* Build configuration list for PBXProject "Socket模拟银行服务系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257101F91E5D24A900C1623E /* Debug */,
+				257101FA1E5D24A900C1623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257101FB1E5D24A900C1623E /* Build configuration list for PBXNativeTarget "Socket模拟银行服务系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257101FC1E5D24A900C1623E /* Debug */,
+				257101FD1E5D24A900C1623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257101EC1E5D24A900C1623E /* Project object */;
+}
